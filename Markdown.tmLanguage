@@ -68,6 +68,18 @@
 					<key>include</key>
 					<string>#separator</string>
 				</dict>
+				<dict>
+					<key>include</key>
+					<string>#slide-separator-vertical</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#slide-separator-horizontal</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#slide-separator-notes</string>
+				</dict>
 			</array>
 		</dict>
 		<dict>
@@ -587,6 +599,18 @@
 				</dict>
 				<dict>
 					<key>include</key>
+					<string>#shortcut-fragment</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#shortcut-hidden</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#shortcut-line-highlight</string>
+				</dict>
+				<dict>
+					<key>include</key>
 					<string>#image-ref</string>
 				</dict>
 				<dict>
@@ -726,6 +750,18 @@
 				</dict>
 				<dict>
 					<key>include</key>
+					<string>#shortcut-fragment</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#shortcut-hidden</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#shortcut-line-highlight</string>
+				</dict>
+				<dict>
+					<key>include</key>
 					<string>#image-ref</string>
 				</dict>
 				<dict>
@@ -861,6 +897,18 @@
 				<dict>
 					<key>include</key>
 					<string>#link-email</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#shortcut-fragment</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#shortcut-hidden</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#shortcut-line-highlight</string>
 				</dict>
 				<dict>
 					<key>include</key>
@@ -1122,6 +1170,18 @@
 				</dict>
 				<dict>
 					<key>include</key>
+					<string>#shortcut-fragment</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#shortcut-hidden</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#shortcut-line-highlight</string>
+				</dict>
+				<dict>
+					<key>include</key>
 					<string>#image-ref</string>
 				</dict>
 				<dict>
@@ -1266,6 +1326,18 @@
 				</dict>
 				<dict>
 					<key>include</key>
+					<string>#shortcut-fragment</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#shortcut-hidden</string>
+				</dict>
+				<dict>
+					<key>include</key>
+					<string>#shortcut-line-highlight</string>
+				</dict>
+				<dict>
+					<key>include</key>
 					<string>#image-ref</string>
 				</dict>
 				<dict>
@@ -1313,6 +1385,27 @@
 			<string>(&lt;)?((?:mailto:)?[-.\w]+@[-a-z0-9]+(\.[-a-z0-9]+)*\.[a-z]+)(&gt;)?</string>
 			<key>name</key>
 			<string>meta.link.email.lt-gt.markdown</string>
+		</dict>
+		<key>shortcut-fragment</key>
+		<dict>
+			<key>match</key>
+			<string>\^\^\!?/\d+\/</string>
+			<key>name</key>
+			<string>meta.slide-shortcut-fragment.markdown</string>
+		</dict>
+		<key>shortcut-hidden</key>
+		<dict>
+			<key>match</key>
+			<string>\^\^\/h\/</string>
+			<key>name</key>
+			<string>meta.slide-shortcut-hidden.markdown</string>
+		</dict>
+		<key>shortcut-line-highlight</key>
+		<dict>
+			<key>match</key>
+			<string>\^\^\[\d+(\s*,\s*\d+)*](?=\r?\n)</string>
+			<key>name</key>
+			<string>meta.slide-shortcut-line-highlight.markdown</string>
 		</dict>
 		<key>link-inet</key>
 		<dict>
@@ -1609,6 +1702,27 @@
 			<string>\G[ ]{,3}([-*_])([ ]{,2}\1){2,}[ \t]*$\n?</string>
 			<key>name</key>
 			<string>meta.separator.markdown</string>
+		</dict>
+		<key>slide-separator-vertical</key>
+		<dict>
+			<key>match</key>
+			<string>\G:::::$\n</string>
+			<key>name</key>
+			<string>meta.slide-separator-vertical.markdown</string>
+		</dict>
+		<key>slide-separator-horizontal</key>
+		<dict>
+			<key>match</key>
+			<string>\G:: ::$\n</string>
+			<key>name</key>
+			<string>meta.slide-separator-horizontal.markdown</string>
+		</dict>
+		<key>slide-separator-notes</key>
+		<dict>
+			<key>match</key>
+			<string>\G:::$\n</string>
+			<key>name</key>
+			<string>meta.slide-separator-notes.markdown</string>
 		</dict>
 		<key>fenced-html</key>
 		<dict>

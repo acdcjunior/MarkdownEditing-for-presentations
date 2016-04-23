@@ -10,7 +10,7 @@
             <key>settings</key>
             <dict>
                 <key>background</key>
-                <string>#ECECEC</string>
+                <string>#FFFFFF</string>
                 <key>caret</key>
                 <string>#00bbff</string>
                 <key>foreground</key>
@@ -395,7 +395,7 @@
                 <string>italic</string>
                 <key>foreground</key>
                 <string>#777777</string>
-                <key>background</key>
+                <key>background-disable-this-one</key>
                 <string>#E8E8E8</string>
             </dict>
         </dict>
@@ -692,6 +692,84 @@
                 <string>#BBBBBB22</string>
                 <key>foreground</key>
                 <string>#AAAAAA</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown slide-separator-vertical</string>
+            <key>scope</key>
+            <string>meta.slide-separator-vertical.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#000</string>
+                <key>foreground</key>
+                <string>#FF0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown slide-separator-horizontal</string>
+            <key>scope</key>
+            <string>meta.slide-separator-horizontal.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#777</string>
+                <key>foreground</key>
+                <string>#FF0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown slide-separator-notes</string>
+            <key>scope</key>
+            <string>meta.slide-separator-notes.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#C7EDED</string>
+                <key>foreground</key>
+                <string>#88F</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown slide-shortcut-fragment</string>
+            <key>scope</key>
+            <string>meta.slide-shortcut-fragment.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#898</string>
+                <key>foreground</key>
+                <string>#FF0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown slide-shortcut-hidden</string>
+            <key>scope</key>
+            <string>meta.slide-shortcut-hidden.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#FF0000</string>
+                <key>foreground</key>
+                <string>#FF0</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Markdown slide-shortcut-line-highlight</string>
+            <key>scope</key>
+            <string>meta.slide-shortcut-line-highlight.markdown</string>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#EE9</string>
+                <key>foreground</key>
+                <string>#00F</string>
             </dict>
         </dict>
         <dict>
