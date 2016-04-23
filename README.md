@@ -5,7 +5,7 @@ This is a fork of [MarkdownEditing](https://github.com/SublimeText-Markdown/Mark
 ### Installation (manual)
 
 1. In Sublime, click the `Preferences > Browse Packages…` menu
-    * This should open a folder
+    * This should open you packages folder:
         * Windows: `%APPDATA%\Sublime Text 3\Packages\`
         * Linux: `~/.Sublime Text 3/Packages/`
 2. On the `Packages` folder:
