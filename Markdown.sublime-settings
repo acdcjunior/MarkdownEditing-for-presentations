@@ -21,13 +21,13 @@
 	"auto_match_enabled": true,
 
 	// Layout
-	"draw_centered": true,
-	"word_wrap": true,
-	"wrap_width": 80,
+	//"draw_centered": true,
+	"word_wrap": false,
+	//"wrap_width": 180,
 	"rulers": [],
 
 	// Line
-	"line_numbers": false,
+	"line_numbers": true,
 	"highlight_line": false,
 	"line_padding_top": 2,
 	"line_padding_bottom": 2,
